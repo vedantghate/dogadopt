@@ -1,0 +1,51 @@
+<app-header></app-header>
+<div class="sliderSection">
+    <div class="content">
+        <span class="title">Ready to Adopt!</span><br />
+        <img class="vector" src="../../../assets/Vector 1.svg">
+        <p class="info">
+            Pune’s first ever virtual adoption event!
+
+            This event is a join collaboration between <a href="https://www.instagram.com/pawthon/">Pawthon, </a><a
+                href="https://www.instagram.com/wakadanimalrescue/">Wakad Animal Rescue, </a><a
+                href="https://www.instagram.com/pranimalfoundation/">Pranimal Foundation</a> and <a
+                href="https://www.instagram.com/pune_dog_adoption/">Pune Dog Adoption</a>
+            Extend support for our Indies by grabbing this t-shirt which says <b>#IndiesAreGoodPetsToo</b><br />
+            To place orders for the campaign, click <a href="https://ilogo.in/pawthon-campaign">here</a>
+        </p>
+        <button class="viewButton">Check 'em out!</button>
+    </div>
+    <div class="imgholder">
+        <img class="image" [src]="imgToDisplay" alt="Adopt, Don't Shop">
+    </div>
+</div>
+<div class="indieSection">
+    <div class="indieImages">
+        <div class="swipers" (click)="swipeIndie('left')"><img
+                src="../../../assets/arrow_left_FILL0_wght400_GRAD0_opsz48.svg"></div>
+        <div class="imageSection">
+            <img class="indieImage" [src]="indieToDisplay" alt="Indies Are Good Pets too!">
+        </div>
+        <div class="swipers" (click)="swipeIndie('right')"><img
+                src="../../../assets/arrow_right_FILL0_wght400_GRAD0_opsz48.svg"></div>
+    </div>
+    <div class="indieContent">
+        <span class="title">About Indie Dogs</span><br/>
+        <img class="vector" src="../../../assets/Vector 1.svg">
+        <p class="info">
+            Indian Native Dogs/INDogs ( termed Pariahs by the Brits ) form the majority of the street dogs in India. They
+            were probably the first domestic dogs of India as there is evidence which shows they were here at least
+            11.000 years ago. Being a landrace breed they are completely free of the genetic defects which plague all
+            the man-made breeds.
+            They existed as community dogs. The concept of dogs as ' house pets ' was not known to the average Indian
+            family till the late 20th century.
+            Even today people still consider only foreign breeds to be ' real house pets '
+            Indies were never really given a chance to prove that they could be good house pets too.
+            But now we have proof--there are hundreds of happily adopted Indies all over India. I hope more and more
+            people come forward to adopt these wonderful, smart and lovable dogs.<br/>
+            <a href="https://www.instagram.com/p/CeJSVOgLsV0/?igshid=YmMyMTA2M2Y%3D">source</a>
+        </p>
+    </div>
+</div>
+<br />
+<app-footer></app-footer>

@@ -1,0 +1,138 @@
+.sliderSection {
+    display: flex;
+    background-color: #e4e5e7 !important;
+    font-family: Poppins, Helvetica, sans-serif;
+    height: 45rem;
+
+    .content {
+        position: relative;
+        left: 5.5rem;
+        top: 12.75rem;
+        z-index: 1;
+        max-width: 30%;
+        max-height: 45rem;
+        align-items: flex-start;
+
+        .title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 52px;
+            line-height: 78px;
+            color: #3A3A3A;
+        }
+
+        .info {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #5B5B5B;
+            max-height: 45rem;
+            text-overflow: ellipsis;
+            text-align: justify;
+            margin-top: 2rem;
+        }
+
+        .vector {
+            padding: 0rem 0rem 0rem 35%;
+        }
+
+        .viewButton {
+            background: #4F7FFA;
+            border-radius: 2rem;
+            border: none;
+            width: 11rem;
+            height: 3.5rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    }
+
+    .imgholder {
+        max-width: 70%;
+        align-items: flex-end;
+
+        .image {
+            height: 40rem;
+            object-fit: cover;
+            position: absolute;
+            right: 0px;
+            border-radius: 5rem;
+            margin: 2rem;
+        }
+    }
+}
+
+.indieSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    height: 39rem;
+    font-family: Poppins, Helvetica, sans-serif;
+
+    .indieImages {
+
+        display: flex;
+        .imageSection {
+            max-height: 39rem;
+
+            .indieImage {
+                height: 39rem;
+                width: 39rem;
+                object-fit: cover;
+                margin: 3rem;
+            }
+        }
+
+        .swipers {
+            cursor: pointer;
+            height: 3rem;
+            width: 3rem;
+            margin-top: 3rem;
+            align-self: center;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 2rem;
+            background: #d5d8dd;
+            border-radius: 50%;
+        }
+    }
+
+    .indieContent {
+
+        margin: 3rem 3rem 0rem 6rem;
+
+        .title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 52px;
+            line-height: 78px;
+            color: #3A3A3A;
+        }
+
+        .info {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #5B5B5B;
+            max-height: 45rem;
+            text-overflow: ellipsis;
+            text-align: justify;
+            margin-top: 2rem;
+        }
+
+        .vector {
+            padding: 0rem 0rem 0rem 35%;
+        }
+    }
+}
+
+
+a,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
