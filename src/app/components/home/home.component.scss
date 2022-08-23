@@ -119,8 +119,10 @@
             font-size: 18px;
             line-height: 27px;
             color: #5B5B5B;
-            max-height: 45rem;
-            text-overflow: ellipsis;
+            height: 70%;
+            //width: 30%;
+            //position: absolute;
+            overflow: auto;
             text-align: justify;
             margin-top: 2rem;
         }
@@ -181,6 +183,7 @@
                 border: none;
                 background: #4F7FFA;
                 border-radius: 2rem;
+                cursor: pointer;
             }
         }
 

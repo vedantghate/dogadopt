@@ -7,9 +7,9 @@
     </div>
 
     <div class="pages">
-        <span class="text">Home <br/><button class="indicator"></button></span>
-        <span class="text">Dogs <br/><button *ngIf="!isHome" class="indicator"></button></span>
-        <span class="text">Cats <br/><button *ngIf="!isHome" class="indicator"></button></span>
+        <span class="text" (click)="navigate('home')">Home <br/><button *ngIf="isHome" class="indicator"></button></span>
+        <span class="text" (click)="navigate('dogs')">Dogs <br/><button *ngIf="isDogs" class="indicator"></button></span>
+        <span class="text" (click)="navigate('cats')">Cats <br/><button *ngIf="isCats" class="indicator"></button></span>
 
         <button class="button" (click)="scrollToContact()"><span class="text">Contact Us</span></button>
     </div>

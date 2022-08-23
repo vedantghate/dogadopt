@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'home',
@@ -32,7 +33,7 @@ export class HomeComponent implements OnInit {
     'https://drive.google.com/file/d/1pvI7n7fBYfRLrumFSZZAzHP4yB9veIiC/view?usp=sharing'
   ]
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     this.swipeImages();
@@ -72,5 +73,10 @@ export class HomeComponent implements OnInit {
       block: 'start',
       inline: 'nearest'
     })
+  }
+
+  navigate(page: string){
+    var myurl = '/'+page;
+    this.router.navigateByUrl(myurl);
   }
 }

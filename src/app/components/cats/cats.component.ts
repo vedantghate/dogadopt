@@ -12,4 +12,10 @@ export class CatsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getImgUrl(img: string) {
+    let url = img.match(/d\/([A-Za-z0-9_\-]+)/);
+    let newurl = 'https://drive.google.com/uc?export=view&id=' + url![1];
+    return newurl;
+  }
+
 }

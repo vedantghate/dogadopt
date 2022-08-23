@@ -30,10 +30,11 @@
                 src="../../../assets/arrow_right_FILL0_wght400_GRAD0_opsz48.svg"></div>
     </div>
     <div class="indieContent">
-        <span class="title">About Indie Dogs</span><br/>
+        <span class="title">About Indie Dogs</span><br />
         <img class="vector" src="../../../assets/Vector 1.svg">
         <p class="info">
-            Indian Native Dogs/INDogs ( termed Pariahs by the Brits ) form the majority of the street dogs in India. They
+            Indian Native Dogs/INDogs ( termed Pariahs by the Brits ) form the majority of the street dogs in India.
+            They
             were probably the first domestic dogs of India as there is evidence which shows they were here at least
             11.000 years ago. Being a landrace breed they are completely free of the genetic defects which plague all
             the man-made breeds.
@@ -42,7 +43,7 @@
             Even today people still consider only foreign breeds to be ' real house pets '
             Indies were never really given a chance to prove that they could be good house pets too.
             But now we have proof--there are hundreds of happily adopted Indies all over India. I hope more and more
-            people come forward to adopt these wonderful, smart and lovable dogs.<br/>
+            people come forward to adopt these wonderful, smart and lovable dogs.<br />
             <a href="https://www.instagram.com/p/CeJSVOgLsV0/?igshid=YmMyMTA2M2Y%3D">source</a>
         </p>
     </div>
@@ -51,30 +52,32 @@
 <div class="petsSection" id="petsection">
     <div class="petcard">
         <div class="content">
-            <span class="subtitle">BROWSE</span><br/>
-            <span class="title">The Dogs</span><br/>
-            <img class="vector" src="../../../assets/Vector 1.svg"><br/><br/><br/>
+            <span class="subtitle">BROWSE</span><br />
+            <span class="title">The Dogs</span><br />
+            <img class="vector" src="../../../assets/Vector 1.svg"><br /><br /><br />
             <p class="info">
                 Check out a variety of Indie dogs up for adoption!
-            </p><br/><br/>
-            <button class="viewButton">View Dogs</button>
+            </p><br /><br />
+            <button class="viewButton" (click)="navigate('dogs')">View Dogs</button>
         </div>
         <div class="imageWrapper">
-            <img class="imag" [src]="getImgUrl('https://drive.google.com/file/d/1LAJKZyfFiheYQm0TKKX0sd5LEamnXHav/view?usp=sharing')">
+            <img class="imag"
+                [src]="getImgUrl('https://drive.google.com/file/d/1LAJKZyfFiheYQm0TKKX0sd5LEamnXHav/view?usp=sharing')">
         </div>
     </div>
     <div class="petcard">
         <div class="content">
-            <span class="subtitle">BROWSE</span><br/>
-            <span class="title">The Cats</span><br/>
-            <img class="vector" src="../../../assets/Vector 1.svg"><br/><br/><br/>
+            <span class="subtitle">BROWSE</span><br />
+            <span class="title">The Cats</span><br />
+            <img class="vector" src="../../../assets/Vector 1.svg"><br /><br /><br />
             <p class="info">
                 Check out a variety of Indie cats up for adoption!
-            </p><br/><br/>
-            <button class="viewButton">View Cats</button>
+            </p><br /><br />
+            <button class="viewButton" (click)="navigate('cats')">View Cats</button>
         </div>
         <div class="imageWrapper">
-            <img class="imag" [src]="getImgUrl('https://drive.google.com/file/d/1bzaQMQxjv81RuFxHP7MsmZRuci58z9Ae/view?usp=sharing')">
+            <img class="imag"
+                [src]="getImgUrl('https://drive.google.com/file/d/1bzaQMQxjv81RuFxHP7MsmZRuci58z9Ae/view?usp=sharing')">
         </div>
     </div>
 </div>
