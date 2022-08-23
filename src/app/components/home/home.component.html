@@ -13,7 +13,7 @@
             Extend support for our Indies by grabbing this t-shirt which says <b>#IndiesAreGoodPetsToo</b><br />
             To place orders for the campaign, click <a href="https://ilogo.in/pawthon-campaign">here</a>
         </p>
-        <button class="viewButton">Check 'em out!</button>
+        <button class="viewButton" (click)="scrollToPets()">Check 'em out!</button>
     </div>
     <div class="imgholder">
         <img class="image" [src]="imgToDisplay" alt="Adopt, Don't Shop">
@@ -48,4 +48,34 @@
     </div>
 </div>
 <br />
+<div class="petsSection" id="petsection">
+    <div class="petcard">
+        <div class="content">
+            <span class="subtitle">BROWSE</span><br/>
+            <span class="title">The Dogs</span><br/>
+            <img class="vector" src="../../../assets/Vector 1.svg"><br/><br/><br/>
+            <p class="info">
+                Check out a variety of Indie dogs up for adoption!
+            </p><br/><br/>
+            <button class="viewButton">View Dogs</button>
+        </div>
+        <div class="imageWrapper">
+            <img class="imag" [src]="getImgUrl('https://drive.google.com/file/d/1LAJKZyfFiheYQm0TKKX0sd5LEamnXHav/view?usp=sharing')">
+        </div>
+    </div>
+    <div class="petcard">
+        <div class="content">
+            <span class="subtitle">BROWSE</span><br/>
+            <span class="title">The Cats</span><br/>
+            <img class="vector" src="../../../assets/Vector 1.svg"><br/><br/><br/>
+            <p class="info">
+                Check out a variety of Indie cats up for adoption!
+            </p><br/><br/>
+            <button class="viewButton">View Cats</button>
+        </div>
+        <div class="imageWrapper">
+            <img class="imag" [src]="getImgUrl('https://drive.google.com/file/d/1bzaQMQxjv81RuFxHP7MsmZRuci58z9Ae/view?usp=sharing')">
+        </div>
+    </div>
+</div>
 <app-footer></app-footer>

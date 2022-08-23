@@ -65,4 +65,12 @@ export class HomeComponent implements OnInit {
     let newurl = 'https://drive.google.com/uc?export=view&id=' + url![1];
     return newurl;
   }
+
+  scrollToPets(){
+    document.getElementById("petsection")?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest'
+    })
+  }
 }

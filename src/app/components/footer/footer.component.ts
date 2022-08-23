@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  name: string = "";
+  phonenumber: string = "";
+  query: string = "";
+  bool: boolean = true;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  enquire() {
+    console.log(this.name, this.phonenumber, this.query)
+    this.name = "";
+    this.phonenumber = "";
+    this.query = "";
+    alert("Enquiry Sent!");
+  }
 }

@@ -16,4 +16,12 @@ export class HeaderComponent implements OnInit {
     
   }
 
+  scrollToContact(){
+    document.getElementById("footer")?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest'
+    })
+  }
+
 }
