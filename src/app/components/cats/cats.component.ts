@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CatsComponent implements OnInit {
 
+  cats = [
+    {"name": "Oreo", "image": "https://drive.google.com/file/d/1bzaQMQxjv81RuFxHP7MsmZRuci58z9Ae/view?usp=sharing", "desc": "Lörem ipsum nidoskap dosm tresk Zoombombning krore. Separat prer ongen."}
+  ]
+
   constructor() { }
 
   ngOnInit(): void {
@@ -18,4 +22,5 @@ export class CatsComponent implements OnInit {
     return newurl;
   }
 
+  
 }

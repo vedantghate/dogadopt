@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EmailService } from 'src/app/services/email.service';
 
 @Component({
   selector: 'app-footer',
@@ -11,13 +12,19 @@ export class FooterComponent implements OnInit {
   phonenumber: string = "";
   query: string = "";
   bool: boolean = true;
-  constructor() { }
+  constructor(private emailService: EmailService) { }
 
   ngOnInit(): void {
   }
 
   enquire() {
     console.log(this.name, this.phonenumber, this.query)
+    var data = {
+      "name": this.name,
+      "number": this.phonenumber,
+      "query": this.query
+    }
+    this.emailService.sendEmail(data).subscribe();
     this.name = "";
     this.phonenumber = "";
     this.query = "";

@@ -1,2 +1,8 @@
 <app-header></app-header>
+<div class="cardWrapper">
+    <ng-container *ngFor="let dog of dogs">
+        <app-petcard [name]="dog.name" [imgSrc]="getImgUrl(dog.image)" [description]="dog.desc">
+        </app-petcard>
+    </ng-container>
+</div>
 <app-footer></app-footer>
