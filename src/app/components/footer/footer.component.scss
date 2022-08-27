@@ -109,11 +109,67 @@
                 object-fit: contain;
             }
 
-            .enlarge{
+            .enlarge {
                 width: 5rem;
                 height: 5rem;
             }
         }
 
+    }
+}
+
+
+@media (max-width:1350px) {
+    .footer {
+        width: 100%;
+        height: auto;
+        margin-top: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .contactCard{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .imageSection{
+                display: flex;
+                justify-content: center;
+
+                .image{
+                    height: 7rem;
+                    position: inherit;
+                }
+            }
+
+            .contactSection{
+                .form{
+                    .inputbar{
+                        width: 100%;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+
+        .details{
+            flex-wrap: wrap;
+
+            .logos{
+                flex-wrap: wrap;
+
+                .logo{
+                    width: 2rem;
+                    height: 2rem;
+                    padding: 0.5rem;
+                }
+
+                .enlarge{
+                    width: 3rem;
+                    height: 3rem;
+                }
+            }
+        }
     }
 }

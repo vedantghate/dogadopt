@@ -73,3 +73,18 @@
         }
     }
 }
+
+@media (max-width:1350px) {
+    .header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
