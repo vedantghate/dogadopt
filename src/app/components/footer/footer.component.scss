@@ -47,6 +47,14 @@
                 color: #858585;
             }
 
+            .emailSvg{
+                margin: 2rem;
+                height: 10rem;
+                width: 10rem;
+                object-fit: contain;
+                cursor: pointer;
+            }
+
             .form {
                 display: block;
                 margin-top: 2rem;
@@ -94,7 +102,7 @@
     .details {
         display: flex;
         justify-content: center;
-        background: #1D1D1D;
+        //background: #1D1D1D;
         box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.06);
 
         .logos {
@@ -140,10 +148,17 @@
                 .image{
                     height: 7rem;
                     position: inherit;
+                    padding: 1rem;
                 }
             }
 
             .contactSection{
+                .emailSvg{
+                    margin: 1rem;
+                    max-height: 5rem;
+                    max-width: 5rem;
+                }
+
                 .form{
                     .inputbar{
                         width: 100%;
@@ -155,6 +170,7 @@
 
         .details{
             flex-wrap: wrap;
+            width: 100%;
 
             .logos{
                 flex-wrap: wrap;
