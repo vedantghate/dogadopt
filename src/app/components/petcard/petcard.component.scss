@@ -5,7 +5,8 @@
     margin: 1rem;
     gap: 10px;
     width: 14.5rem;
-    height: 90%;
+    //height: 90%;
+    height: 30rem;
     background: #f8f4f4;
     box-shadow: 3px 3px 4px rgba(102, 102, 102, 0.15);
     border-radius: 1.5rem;
@@ -13,7 +14,6 @@
     font-family: Poppins, Helvetica, sans-serif;
 
     .imgWrapper{
-        //height: 14rem;
         text-align: center;
         margin-bottom: 1rem;
         .image {
@@ -39,9 +39,10 @@
         font-weight: 400;
         font-size: 0.9rem;
         line-height: 21px;
+        height: 9rem;
         color: #5B5B5B;
         text-align: justify;
-        text-overflow: ellipsis;
+        overflow-y: scroll;
     }
 
     .adopt {
