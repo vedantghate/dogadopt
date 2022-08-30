@@ -205,7 +205,7 @@ export class CatsComponent implements OnInit {
     },
     {
       name: 'Juno',
-      image: 'Chikita',
+      image: 'https://drive.google.com/file/d/1eBd7epGi_V7MGOk4rQE_Ewa0G4gOivMR/view?usp=sharing',
       desc: 'Juno',
     },
     {
