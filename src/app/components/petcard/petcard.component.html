@@ -1,10 +1,10 @@
-<div class="petcard">
+<div class="petcard" [ngStyle]="{'height': smallCard}">
     <div class="imgWrapper">
         <img class="image" [src]="imgSrc">
     </div>
     <div>
         <span class="name">Meet {{name}}</span>
-        <p class="desc">
+        <p class="desc" [ngStyle]="{'height': smallDesc}">
             {{description}}
         </p>
     </div>

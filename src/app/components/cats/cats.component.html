@@ -1,7 +1,7 @@
 <app-header></app-header>
 <div class="cardWrapper">
     <ng-container *ngFor="let cat of cats">
-        <app-petcard [name]="cat.name" [imgSrc]="getImgUrl(cat.image)" [description]="cat.desc">
+        <app-petcard [name]="cat.name" [imgSrc]="getImgUrl(cat.image)" [description]="cat.desc" [small]="true">
         </app-petcard>
     </ng-container>
 </div>
