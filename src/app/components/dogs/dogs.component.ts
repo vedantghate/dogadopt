@@ -21,12 +21,14 @@ export class DogsComponent implements OnInit {
         'Vaccinated- Yes\n' +
         'Dewormed- Yes\n' +
         'ROXY is looking for her forever home, where she can get all the love she deserves. Please come forward and shower all your love on ROXY and adopt her.\n',
+      age: '',
     },
     {
       name: 'Puppy',
       image: 'https://drive.google.com/file/d/1jm398PnYOQoGlqvadETuYDmqi5vGb3pd/view?usp=sharing',
       desc:
         'Puppy cutie was found abandoned alone in a society in Pimple gurav. Mother and siblings were nowhere to be found. She was unlikely to survive on her own without a mother, so she’s currently being fostered by a family.',
+      age: '',
     },
     {
       name: 'Daisy',
@@ -48,6 +50,7 @@ export class DogsComponent implements OnInit {
         'DAISY is looking for her forever home, where she can get all the love she\n' +
         'deserves. Please come forward and shower all your love on DAISY and adopt\n' +
         'her.',
+      age: '',
     },
     {
       name: 'Pepsi',
@@ -65,6 +68,7 @@ export class DogsComponent implements OnInit {
         'Pepsi is a very cuddly and a perfect house dog. She is a little\n' +
         'bundle of joy and will definately fill your home with happiness\n' +
         'and luck for sure .',
+      age: '',
     },
     {
       name: 'Jane',
@@ -80,6 +84,7 @@ export class DogsComponent implements OnInit {
         'Adoption in and around Pune or Mumbai\n' +
         'Contact no. 9850551880\n' +
         'Ms. Ashwini Kulkarni',
+      age: '',
     },
     {
       name: 'Jewel',
@@ -92,6 +97,7 @@ export class DogsComponent implements OnInit {
         'Adoption in and around Pune or Mumbai\n' +
         'Contact no. 9850551880\n' +
         'Ms. Ashwini Kulkarni\n',
+      age: '',
     },
     {
       name: 'Ginny',
@@ -105,6 +111,7 @@ export class DogsComponent implements OnInit {
         'Gender: Female\n' +
         'Breed: Indie\n' +
         'Spot on & Deworming done. Vaccination - 1/4 shots done.\n',
+      age: '',
     },
     {
       name: 'Dobby',
@@ -119,16 +126,19 @@ export class DogsComponent implements OnInit {
         ' Vaccination - 2nd Done\n' +
         ' Deworming – Done Regularly\n' +
         ' Potty Trained',
+      age: '',
     },
     {
       name: 'Dolly',
       image: 'https://drive.google.com/file/d/17Jka6PtpvuLLkOBnVxoQ0iR3JWIoOyOK/view?usp=sharing',
       desc: 'Dolly...',
+      age: '',
     },
     {
       name: 'Luna',
       image: 'https://drive.google.com/file/d/1APN92EbJST0wYJr-U2CkHNXH477OEOSo/view?usp=sharing',
       desc: 'Luna...',
+      age: '',
     },
     {
       name: 'Benny',
@@ -139,6 +149,7 @@ export class DogsComponent implements OnInit {
         'Age:  1 month\n' +
         'Vaccination status: Vaccinated \n' +
         'Deworming status: Dewormed \n',
+      age: '',
     },
     {
       name: 'Chiku',
@@ -149,6 +160,7 @@ export class DogsComponent implements OnInit {
         'Age:  1 month\n' +
         'Vaccination status: Vaccinated \n' +
         'Deworming status: Dewormed \n',
+      age: '',
     },
     {
       name: 'Fluffy',
@@ -159,6 +171,7 @@ export class DogsComponent implements OnInit {
         'Age:  1 month\n' +
         'Vaccination status: Vaccinated \n' +
         'Deworming status: Dewormed \n',
+      age: '',
     },
     {
       name: 'Guddu',
@@ -169,6 +182,7 @@ export class DogsComponent implements OnInit {
         'Age:  1 month \n' +
         'Vaccination status: Vaccinated \n' +
         'Deworming status: Dewormed \n',
+      age: '',
     },
     {
       name: 'Kalu',
@@ -180,6 +194,7 @@ export class DogsComponent implements OnInit {
         'Age: 1 month\n' +
         'Vaccination status: Vaccinated\n' +
         'Deworming status: Dewormed',
+      age: '',
     },
     {
       name: 'Patches',
@@ -190,6 +205,7 @@ export class DogsComponent implements OnInit {
         'Age:  1 month\n' +
         'Vaccination status: Vaccinated \n' +
         'Deworming status: Dewormed \n',
+      age: '',
     },
     {
       name: 'Queenie',
@@ -201,6 +217,7 @@ export class DogsComponent implements OnInit {
         'Age: 1 month\n' +
         'Vaccination status: Vaccinated\n' +
         'Deworming status: Dewormed',
+      age: '',
     },
     {
       name: 'Scruffy',
@@ -212,6 +229,7 @@ export class DogsComponent implements OnInit {
         'Age: 1 month\n' +
         'Vaccination status: Vaccinated\n' +
         'Deworming status: Dewormed',
+      age: '',
     },
     {
       name: 'Shadow',
@@ -223,6 +241,7 @@ export class DogsComponent implements OnInit {
         'Age: 1 month\n' +
         'Vaccination status: Vaccinated\n' +
         'Deworming status: Dewormed',
+      age: '',
     },
     {
       name: 'ZORO',
@@ -237,6 +256,7 @@ export class DogsComponent implements OnInit {
         'Vaccination: 1 dose of 7-in-1 vaccine given\n' +
         'Foster’s details: Kajal Pawar (9145716081)\n' +
         'Location: Pimple Gurav, Pune',
+      age: '',
     },
     {
       name: 'Laddu',
@@ -244,6 +264,7 @@ export class DogsComponent implements OnInit {
       desc:
         'Background - Our pet dog Piku gave birth to 5 puppies , 4 females and 1    male.2 female puppies got adopted. We have neutered our female dog now. Laddu is the Male puppy.\n' +
         'Behaviour - Laddu is extremely adorable and very friendly. He likes to explore. He is a calm doggy.His health checkups are done regularly.\n',
+      age: '',
     },
     {
       name: 'Winnie',
@@ -254,6 +275,7 @@ export class DogsComponent implements OnInit {
         'Winnie is the first born Female puppy.\n' +
         'Behaviour - Winnie is extremely adorable and very friendly. She is protective of\n' +
         'her siblings .Her health check-ups are done regularly.',
+      age: '',
     },
     {
       name: 'Mickey',
@@ -261,6 +283,7 @@ export class DogsComponent implements OnInit {
       desc:
         'Background - Our pet dog Piku gave birth to 5 puppies , 4 females and 1    male.2 female puppies got adopted. We have neutered our female dog now. Mickey is the last born Female puppy.\n' +
         'Behaviour - Mickey is extremely adorable and mischievous. She is active and extremely alert .Her health check-ups are done regularly.\n',
+      age: '',
     },
     {
       name: 'Sia',
@@ -268,12 +291,14 @@ export class DogsComponent implements OnInit {
       desc:
         'Sia was found by the roadside alone, motherless. We decided to take her home.\n' +
         'Sia is a very sweet, cuddly, energetic pup. She is very friendly with my pet male dog of  1.5 years and humans as well. \n',
+      age: '',
     },
     {
       name: 'Chakuli',
       image: 'https://drive.google.com/file/d/1zlNB7iA1NTHA6RMkhtgSwsxjFhOjql0q/view?usp=sharing',
       desc:
         'Chakuli is the cutest and calmest puppy we have ever seen. But loves to play with other dogs around. He is a motherless puppy looking for a forever home.',
+      age: '',
     },
     {
       name: 'Lado',
@@ -282,6 +307,7 @@ export class DogsComponent implements OnInit {
         'Lado is a very friendly puppy, who loves to play around with\n' +
         'everyone. She has no special demands about anything, she stays happy with\n' +
         'whatever she is given.',
+      age: '',
     },
     {
       name: 'Neera',
@@ -290,6 +316,7 @@ export class DogsComponent implements OnInit {
         'Neera is joyful, happy-go-lucky girl. She is a perfect pet one can\n' +
         'have. She doesn’t have any extra demands in terms of food or comfort. She\n' +
         'loves to be around humans and other dogs too.',
+      age: '',
     },
     {
       name: 'Pogo',
@@ -297,6 +324,7 @@ export class DogsComponent implements OnInit {
       desc:
         'Pogo is a very calm dog, expert in making friends quickly. He loves\n' +
         'human company. He is also good with other dogs and cats around.',
+      age: '',
     },
     {
       name: 'Barfi',
@@ -305,6 +333,7 @@ export class DogsComponent implements OnInit {
         'Pratima aunty one night spotted my mumma and papa tied to a tree and we tiny ones were inside a dark ditch. Brave Pratima aunty got us out and we along with mumma, Papa accompanied her in her car to a safe place. \n' +
         'She built us a safe shelter and made us comfortable. \n' +
         'Pratima aunty feels we are very cute and cuddly and can be a loving companion for any home. \n',
+      age: '',
     },
     {
       name: 'Ladoo',
@@ -313,6 +342,7 @@ export class DogsComponent implements OnInit {
         'Pratima aunty one night spotted my mumma and papa tied to a tree and we tiny ones were inside a dark ditch. Brave Pratima aunty got us out and we along with mumma, Papa accompanied her in her car to a safe place. \n' +
         'She built us a safe shelter and made us comfortable. \n' +
         'Pratima aunty feels we are very cute and cuddly and can be a loving companion for any home. \n',
+      age: '',
     },
     {
       name: 'Cookie',
@@ -321,36 +351,42 @@ export class DogsComponent implements OnInit {
         'Pratima aunty one night spotted my mumma and papa tied to a tree and we tiny ones were inside a dark ditch. Brave Pratima aunty got us out and we along with mumma, Papa accompanied her in her car to a safe place. \n' +
         'She built us a safe shelter and made us comfortable. \n' +
         'Pratima aunty feels we are very cute and cuddly and can be a loving companion for any home. \n',
+      age: '',
     },
     {
       name: 'Penny',
       image: 'https://drive.google.com/file/d/1nUAxF50NE7Z35guGvThKysM_nKr-jKQl/view?usp=sharing',
       desc:
         'They are super playful and adorable, and each one comes with a different personality! There are 7 puppies are from the same litter. ',
+      age: '',
     },
     {
       name: 'Dora',
       image: 'https://drive.google.com/file/d/1bv7yXHtoL2P3rlpzyeDHVmo1KlN6CvTt/view?usp=sharing',
       desc:
         'They are super playful and adorable, and each one comes with a different personality! There are 7 puppies are from the same litter. ',
+      age: '',
     },
     {
       name: 'Nacho',
       image: 'https://drive.google.com/file/d/1JJ0n1T29CN1X6CET0B6ypiKt77gOqTuE/view?usp=sharing',
       desc:
         'They are super playful and adorable, and each one comes with a different personality! There are 7 puppies are from the same litter. ',
+      age: '',
     },
     {
       name: 'Burritos',
       image: 'https://drive.google.com/file/d/1f3Iffk3PxUTcMuBryxQ4bUspu_cYgT45/view?usp=sharing',
       desc:
         'They are super playful and adorable, and each one comes with a different personality! There are 7 puppies are from the same litter. ',
+      age: '',
     },
     {
       name: 'Cookie',
       image: 'https://drive.google.com/file/d/1r8rQoS1kUbed8MZ5wcvOMyaS8rSkEJQK/view?usp=sharing',
       desc:
         'They are super playful and adorable, and each one comes with a different personality! There are 7 puppies are from the same litter. ',
+      age: '',
     },
     {
       name: 'TOFFY',
@@ -358,11 +394,13 @@ export class DogsComponent implements OnInit {
       desc:
         'AGE: 3-4 Months\n' +
         'Gender : Female Vaccinations : 2Doses of 7 in 1 Vaccine, 2 Doses Of CCV, Rabies',
+      age: '',
     },
     {
       name: 'Tuffy',
       image: 'https://drive.google.com/file/d/1J7lzSUy9ePSBlKEKyEeOI2VlxvzqNEyI/view?usp=sharing',
       desc: 'Tuffy',
+      age: '',
     },
     {
       name: 'Blackie',
@@ -371,11 +409,13 @@ export class DogsComponent implements OnInit {
         'Blackie was found and rescued inside a tech park in Hinjewadi with multiple dog bites. He was treated for the same and is now fit and healthy.\n' +
         'Blackie is very docile, obedient and playful pup of around 4-5 months. \n' +
         'He is neutered and dewormed and vaccination is complete.\n',
+      age: '',
     },
     {
       name: 'these doggos',
       image: 'https://drive.google.com/file/d/1DQO12DOJqOo2xKBJWhDONdVv1f2aIaTw/view?usp=sharing',
       desc: 'Scooby, Charlie and Tuffy are up for adoption',
+      age: '',
     },
     {
       name: 'MIMI',
@@ -386,57 +426,68 @@ export class DogsComponent implements OnInit {
         'and having them around has been a real blessing as Mimi has picked up all the\n' +
         'good qualities from them and extremely obedient. She enjoys playing with\n' +
         'them. They have been like a mother to her.',
+      age: '',
     },
     {
       name: 'Bailey',
       image: 'https://drive.google.com/file/d/1H06gKCVxKkLGvfqU3PeLNtDXWbxMp6GF/view?usp=sharing',
       desc: 'Bailey...',
+      age: '',
     },
     {
       name: 'Coco',
       image: 'https://drive.google.com/file/d/1DbBiJfRVKhi9khIl2qwsYf-dsOFF1aMf/view?usp=sharing',
       desc: 'Coco...',
+      age: '',
     },
     {
       name: 'Frankie',
       image: 'https://drive.google.com/file/d/1JRgMQ6JYtLFIilWW_AHQlMUwZM6beHl0/view?usp=sharing',
       desc: 'Frankie...',
+      age: '',
     },
     {
       name: 'Harley',
       image: 'https://drive.google.com/file/d/1d-KJCwfqh_o_kk6PUGLyENNiI0leoPBj/view?usp=sharing',
       desc: 'Harley...',
+      age: '',
     },
     {
       name: 'Marley',
       image: 'https://drive.google.com/file/d/1moOvZI6aG5f3dXehLAyJnY7fF_xv4GbG/view?usp=sharing',
       desc: 'Marley...',
+      age: '',
     },
     {
       name: 'Riley',
       image: 'https://drive.google.com/file/d/1FKusrQXS028W6Ka5uwLCI0G-XJAq4Hl3/view?usp=sharing',
       desc: 'Riley...',
+      age: '',
     },
     {
       name: 'Scout',
       image: 'https://drive.google.com/file/d/1uovwCDukSYEjLSv_XXIF75LisfHq34a4/view?usp=sharing',
       desc: 'Scout...',
+      age: '',
     },
     {
       name: 'Montu',
       image: 'https://drive.google.com/file/d/1uovwCDukSYEjLSv_XXIF75LisfHq34a4/view?usp=sharing',
       desc: 'Montu...',
+      age: '',
     },
     {
       name: 'Rose',
       image: 'https://drive.google.com/file/d/1tMHYAi1t-Xg0UD_3mqP44W2ehA_d0k6g/view?usp=sharing',
       desc: 'Rose...',
+      age: '',
     },
     {
       name: 'Blacky',
       image: 'https://drive.google.com/file/d/1Kyh3qGtsx7QfUEw2SCf2OHu_RwqpvNFW/view?usp=sharing',
       desc:
         'Blacky along with her siblings were found relocated in a secluded area, but she was lucky to have found a lactating mother and has grown up to be a beautiful girl who is extremely playful and naughty ☺ ',
+      age: '',
     },
     {
       name: 'Brownie',
@@ -445,26 +496,31 @@ export class DogsComponent implements OnInit {
         'Brownie along with her siblings were found relocated in a secluded area,their mother was\n' +
         'extremely malnourished and locals were not allowing her to feed the pups. Unfortunately, Brownie\n' +
         'and her sibling sister survived only. She is a playful, loving and naughty pup',
+      age: '',
     },
     {
       name: 'Lolo',
       image: 'https://drive.google.com/file/d/1rGrVtEBXiShBzMyH7jkdyzs6405JfJgs/view?usp=sharing',
       desc: 'Lolo...',
+      age: '',
     },
     {
       name: 'Mili',
       image: 'https://drive.google.com/file/d/1dA9LwSDX7XwRO-vozNAn4xAoyaGco9br/view?usp=sharing',
       desc: 'Mili...',
+      age: '',
     },
     {
       name: 'Lolo',
       image: 'https://drive.google.com/file/d/1rGrVtEBXiShBzMyH7jkdyzs6405JfJgs/view?usp=sharing',
       desc: 'Lolo...',
+      age: '',
     },
     {
       name: 'Mishty',
       image: 'https://drive.google.com/file/d/1cNzxsaUJHSeNUjK2r3MaxPCCdr2AzQlF/view?usp=sharing',
       desc: 'Mishty...',
+      age: '',
     },
   ];
 

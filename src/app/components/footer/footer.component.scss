@@ -1,6 +1,6 @@
 .footer {
 
-    background: #F7F7F7;
+    background: #FFFFFF;
     border-radius: 5rem;
     margin-top: 15rem;
     font-family: Poppins, Helvetica, sans-serif;
@@ -120,6 +120,10 @@
             .enlarge {
                 width: 5rem;
                 height: 5rem;
+            }
+
+            .round{
+                border-radius: 50%;
             }
         }
 
